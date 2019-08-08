@@ -1,0 +1,10 @@
+%module @module@
+
+%{
+#define SWIG_FILE_WITH_INIT
+#include "@module@.h"
+%}
+
+
+// Process symbols in header
+%include "@module@.h"
